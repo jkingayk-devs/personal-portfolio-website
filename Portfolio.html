@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>About — JKing / Jameel Nawaz</title>
+<style>
+  :root{
+    --brand:#0b8a44; --muted:#6b7280; --bg:#f6f8fa; --card:#ffffff;
+    --accent:#2b6cb0;
+  }
+  *{box-sizing:border-box}
+  body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;margin:0;background:var(--bg);color:#111}
+  .container{max-width:980px;margin:28px auto;padding:18px}
+  .header{display:flex;gap:16px;align-items:center}
+  .avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--brand),#2db57a);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:28px}
+  h1{margin:0;font-size:26px}
+  p.lead{margin:6px 0;color:var(--muted)}
+  .top-grid{display:grid;grid-template-columns:1fr 320px;gap:14px;margin-top:18px}
+  .card{background:var(--card);padding:14px;border-radius:10px;box-shadow:0 6px 20px rgba(12,25,40,0.06)}
+  .section{margin-top:14px}
+  .small{font-size:14px;color:var(--muted)}
+  .skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+  .skill{background:#eef7ef;color:var(--brand);padding:6px 8px;border-radius:6px;font-size:13px}
+  .projects .proj{border-left:4px solid var(--brand);padding:10px;margin-bottom:10px}
+  ul.link-list{list-style:none;padding:0;margin:0}
+  ul.link-list li{padding:6px 0;border-bottom:1px dashed #eee;display:flex;justify-content:space-between;align-items:center}
+  a.link{color:var(--accent);text-decoration:none}
+  .btns{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+  .btn{background:var(--brand);color:#fff;padding:8px 12px;border-radius:6px;text-decoration:none;display:inline-block}
+  .btn.secondary{background:#2b6cb0}
+  .footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+  .col{display:flex;flex-direction:column;gap:6px}
+  .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+  .tag{background:#fff;border:1px solid #eee;padding:6px 8px;border-radius:6px;font-size:13px}
+  @media(max-width:900px){.top-grid{grid-template-columns:1fr}.avatar{width:76px;height:76px;font-size:22px}}
+  @media print{.btns,.footer{display:none}}
+</style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="avatar">JN</div>
+      <div>
+        <h1>Jameel Nawaz <small style="font-size:14px;color:var(--muted);display:block">— JKING (Developer & Founder)</small></h1>
+        <div class="small">Qayyumabad, Street 10, House 33, Karachi, Sindh, Pakistan</div>
+        <div class="small">Phone: <a class="link" href="tel:+923052455864">0305-2455864</a> • Email: <a class="link" href="mailto:jameelkingjk143@gmail.com">jameelkingjk143@gmail.com</a></div>
+        <p class="lead">DAE (CIT) student — building mobile-first apps and offline-first desktop tools for local businesses. Final year projects include POS systems, store apps, and utility tools.</p>
+      </div>
+    </header>
+
+    <div class="top-grid" style="margin-top:18px">
+      <main class="card">
+        <section>
+          <h3>About / Objective</h3>
+          <p class="small">To start my career in the IT field where I can apply my technical knowledge, develop programming skills, gain practical experience, and enhance my knowledge through hands-on work and training.</p>
+        </section>
+
+        <section class="section">
+          <h3>Selected Projects</h3>
+          <div class="projects">
+            <div class="proj">
+              <strong>CAVS — Smart Mini Store (Final Year)</strong>
+              <div class="small">Mobile-first store app (FlutterFlow + Firebase). Cart & checkout, distance-based delivery charges, tip system, admin dashboard, live order tracking, offers & spin-wheel (built but disabled by default).</div>
+            </div>
+
+            <div class="proj">
+              <strong>Linux POS — Biryani Center</strong>
+              <div class="small">Offline-first desktop POS (Python + PyQt / SQLite). Receipt generation, cloud backup sync on internet, USB export, touch-friendly UI for shop staff (client-ready).</div>
+            </div>
+
+            <div class="proj">
+              <strong>Student Registration System</strong>
+              <div class="small">PHP + MySQL project for student registration (form, DB schema, README).</div>
+            </div>
+
+            <div class="proj">
+              <strong>Portfolio Website</strong>
+              <div class="small">Static HTML/CSS portfolio showcasing skills and projects.</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h3>Work Experience</h3>
+          <ul style="margin:0;padding-left:18px">
+            <li><strong>General Electrician</strong> — 2024–Present: Wiring, repair & maintenance</li>
+            <li><strong>Gate Pass Operator</strong> — 2024: Excel-based record keeping</li>
+            <li><strong>Data Entry Operator (Grocery)</strong> — 2024–2025 (5 months): Billing & inventory updates (Excel)</li>
+            <li><strong>Polio Worker</strong> — 2023: Door-to-door data collection & record keeping</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h3>Contact & Quick Actions</h3>
+          <div class="btns">
+            <a class="btn" href="mailto:jameelkingjk143@gmail.com">Email Me</a>
+            <a class="btn" href="https://github.com/jkingayk-devs" target="_blank">My GitHub</a>
+            <a class="btn secondary" href="#" onclick="window.print();return false;">Download / Print</a>
+          </div>
+        </section>
+      </main>
+
+      <aside class="card">
+        <h3>Profile Summary</h3>
+        <div class="small">DAE (CIT) student — Focus on mobile apps, offline desktop tools and small business automation. Quick learner, practical mindset, experience with basic hardware & data entry.</div>
+
+        <div class="section">
+          <h3>Skills</h3>
+          <div class="skills">
+            <span class="skill">HTML • CSS • JS (basic)</span>
+            <span class="skill">Java • C • C++</span>
+            <span class="skill">Flutter (learning)</span>
+            <span class="skill">Python (Desktop Apps)</span>
+            <span class="skill">Firebase • Firestore</span>
+            <span class="skill">SQLite • MySQL</span>
+            <span class="skill">MS Excel</span>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Education</h3>
+          <div class="small">DAE (CIT) — MITI (Memon Industrial & Technical Institute) — 2023–2026 (In Progress)</div>
+          <div class="small">Matric (Computer Science) — 2023</div>
+        </div>
+
+        <div class="section">
+          <h3>Quick Links</h3>
+          <ul class="link-list">
+            <li><span>GitHub</span> <a class="link" href="https://github.com/jkingayk-devs" target="_blank">github.com/jkingayk-devs</a></li>
+            <li><span>Portfolio</span> <a class="link" href="https://jking420.wixsite.com/home" target="_blank">jking420.wixsite.com/home</a></li>
+            <li><span>House Wiring</span> <a class="link" href="https://jking420.wixsite.com/housewiring" target="_blank">jking420.wixsite.com/housewiring</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <div class="card section">
+      <h3>All My Links (Official)</h3>
+      <p class="small">Listed below are my social profiles, websites, channels and contact emails. Use these to reach me or view my work.</p>
+
+      <div style="margin-top:10px" class="grid-2">
+        <div class="card" style="padding:12px">
+          <h4>Websites</h4>
+          <ul style="margin:6px 0 0 12px">
+            <li><a class="link" href="https://jking420.wixsite.com/home" target="_blank">Main Website — jking420.wixsite.com/home</a></li>
+            <li><a class="link" href="https://jking420.wixsite.com/housewiring" target="_blank">House Wiring — jking420.wixsite.com/housewiring</a></li>
+            <li><a class="link" href="https://jkingsite.wixsite.com/home" target="_blank">Alternate Site — jkingsite.wixsite.com/home</a></li>
+          </ul>
+        </div>
+
+        <div class="card" style="padding:12px">
+          <h4>YouTube & Videos</h4>
+          <ul style="margin:6px 0 0 12px">
+            <li><a class="link" href="https://www.youtube.com/@jking220v" target="_blank">YouTube Channel — @jking220v (Coming soon...)</a></li>
+            <li><a class="link" href="https://www.youtube.com/@jking220" target="_blank">YouTube (alt) — jking220</a></li>
+          </ul>
+        </div>
+
+        <div class="card" style="padding:12px">
+          <h4>Social Media</h4>
+          <ul style="margin:6px 0 0 12px">
+            <li>Facebook: <a class="link" href="https://www.facebook.com/profile.php?id=100094513356230" target="_blank">Profile 1</a></li>
+            <li>Facebook: <a class="link" href="https://www.facebook.com/JameelKingOk" target="_blank">Profile 2</a></li>
+            <li>Instagram: <a class="link" href="https://instagram.com/jkingayk" target="_blank">@jkingayk</a></li>
+            <li>Instagram: <a class="link" href="https://instagram.com/jameelking0k" target="_blank">@jameelking0k</a></li>
+            <li>TikTok: <a class="link" href="https://tiktok.com/@jking220" target="_blank">@jking220</a></li>
+            <li>SnackVideo: <a class="link" href="https://sck.io/u/@jking220/He98HpdU" target="_blank">SnackVideo</a></li>
+            <li>Chingari: <a class="link" href="https://chingari.io/jking220" target="_blank">Chingari</a></li>
+            <li>Rung: <span class="small">Link coming soon — @JkingAYK / @Jking220</span></li>
+          </ul>
+        </div>
+
+        <div class="card" style="padding:12px">
+          <h4>Other Pages / Fun</h4>
+          <ul style="margin:6px 0 0 12px">
+            <li>Mr.Fun (Facebook): <a class="link" href="https://www.facebook.com/jkfunny143" target="_blank">jkfunny143</a></li>
+            <li>Islamic Knowledge (FB): <a class="link" href="https://www.facebook.com/JKIslamic786/" target="_blank">JKIslamic786</a></li>
+          </ul>
+        </div>
+
+        <div class="card" style="padding:12px">
+          <h4>Contact Emails</h4>
+          <ul style="margin:6px 0 0 12px">
+            <li>Business Mail: <a class="link" href="mailto:JkingAYK@gmail.com">JkingAYK@gmail.com</a></li>
+            <li>Local Mail: <a class="link" href="mailto:jkingr045t3r@gmail.com">jkingr045t3r@gmail.com</a></li>
+            <li>Private Email: <a class="link" href="mailto:jameelkingjk143@gmail.com">jameelkingjk143@gmail.com</a></li>
+          </ul>
+        </div>
+
+        <div class="card" style="padding:12px">
+          <h4>Phone & Chat</h4>
+          <ul style="margin:6px 0 0 12px">
+            <li>WhatsApp: <a class="link" href="https://wa.me/+923052455864">+92 305 2455864</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card section">
+      <h3>Notes & Next Steps</h3>
+      <p class="small">All projects and links are managed by JKING (Jameel Nawaz). If you need the full project files, demo, or would like to buy the Biryani POS for your shop, contact via WhatsApp or email. Projects include README and deployment instructions for GitHub and hosting.</p>
+    </div>
+
+    <footer class="footer">
+      © JKING Technologies — JKING BiryaniAPP v1.0 • Portfolio & Contact Page
+    </footer>
+  </div>
+</body>
+</html>
