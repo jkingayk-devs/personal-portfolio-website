@@ -16,6 +16,9 @@ A simple static website created using **HTML and CSS**. This project showcases b
 1. Download or clone the repository
 2. Open `index.html` in your browser
 
+OR
+copy and paste it into your browser
+on-site: https://jkingayk-devs.github.io/personal-portfolio-website/Portfolio.html
 ## 🔮 Future Improvements
 - Add JavaScript for interactivity
 - Make the design responsive for mobile devices
